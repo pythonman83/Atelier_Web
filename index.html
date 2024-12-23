@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta name="description" content="Découvrez nos ateliers de développement web avec des guides sur le développement frontend, incluant HTML, CSS, et JavaScript.">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/styles.css">
+
+    <title>Atelier Développement Web</title>
+    
+</head>
+<body>
+    <header>
+        <h1>Bienvenue sur notre site dédié au développement web ! 👋</h1>
+    </header>
+
+    <section>
+        <h2>À propos de nous 🎉</h2>
+        <p>Je m'appelle Alex et j'adore le développement web ! Passionné par la création de sites web modernes et réactifs.</p>
+        <p>Pour voir un exemple de l'une de mes dernière création, cliquez ici : <a href="https://www.restaurant-casa-mia.fr/" target="_blank">Page d'accueil du site</a>.</p>
+    </section>
+
+    <section>
+        <p>Voici une image fascinante :</p>
+        <img src="images/image_principale.jpg" alt="Image principale décrite">
+        <video autoplay loop muted playsinline>
+            <source src="videos/video_fascinante.mp4" type="video/mp4">
+            Votre navigateur ne supporte pas la vidéo.
+        </video>
+
+        <h2>Ma Galerie de Photos</h2>
+        <div class="gallery">
+            <div>
+                <img src="images/photo1.png" alt="Description de la photo 1">
+                <p>Légende de la photo 1</p>
+            </div>
+            <div>
+                <img src="images/photo2.png" alt="Description de la photo 2">
+                <p>Légende de la photo 2</p>
+            </div>
+            <div>
+                <img src="images/photo3.png" alt="Description de la photo 3">
+                <p>Légende de la photo 3</p>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <h2>Contactez-Nous</h2>
+        <form action="submit_form.php" method="POST">
+            <label for="name">Nom :</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Adresse mail :</label>
+            <input type="email" id="email" name="email" required>
+            <label for="subject">Sujet :</label>
+            <select id="subject" name="subject">
+                <option value="feedback">Retour d'information</option>
+                <option value="query">Demande de renseignements</option>
+                <option value="support">Support technique</option>
+            </select>
+            <label for="message">Message :</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Envoyer</button>
+        </form>
+    </section>
+
+    <footer>
+        <h2>Mon Beau Tableau</h2>
+        <table>
+            <tr>
+                <th>#</th>
+                <th>Nom</th>
+                <th>Âge</th>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>Jean</td>
+                <td>30</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Marie</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>Pierre</td>
+                <td>29</td>
+            </tr>
+        </table>
+    </footer>
+</body>
+</html>
